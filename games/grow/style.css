@@ -1,0 +1,55 @@
+* {
+	padding:0px;
+	margin:0px;
+	position: relative;
+}
+
+
+#gameBox {
+	top:40px;
+	margin: auto;
+	width:800px;
+	height:500px;
+	border: 1px solid black;
+}
+
+#grass {
+	height: 40px;
+	width:100%;
+	bottom:0px;
+	position: absolute;
+	background-color:green;
+}
+
+#basket {
+	left:400px;
+	position: absolute;
+	border-top:25px solid brown;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	width: 25px;
+	height:0;
+	bottom:40px;
+}
+
+#sunDrop, #waterDrop {
+	height:13px;
+	width:13px;
+	border-radius:50%;
+}
+
+#sunDrop {
+	background-color:yellow;
+}
+
+#waterDrop {
+	top:0px;
+	position: absolute;
+	background-color: blue;
+}
+
+#coords {
+	height:80px;
+	width:200px;
+	border:1px solid black;
+}

@@ -1,0 +1,47 @@
+<tr><td>Entered on 03/04/14 at 04:49:54<br>My first entry</td>
+<td>Entered on 03/04/14 at 04:50:29<br>I can see it now...</td>
+<tr><td>Entered on 03/04/14 at 04:50:39<br>Wow this is kind of exciting</td>
+<td>Entered on 03/04/14 at 04:53:51<br>    Let us see what we can do    </td>
+<tr><td>Entered on 03/04/14 at 04:54:25<br>    does it have any effect if i type one looooong drawn out comment that may never cease to end on my behalf?    </td>
+<td>Entered on 03/04/14 at 04:54:41<br>    NOT A ONE GOOD FELLOW!    </td>
+<tr><td>Entered on 03/04/14 at 04:56:27<br>    For formatting sakes Ill keep it down to two spaces, this is all being dynamically generated into a word document that, on load, will display such content. Everything ive been doing has led to this. This is officially a compatible blog!     </td>
+<td>Entered on 03/04/14 at 04:57:06<br>    If I make one long entry then one short entry it appears as tho it will not look as good.    </td>
+<tr><td>Entered on 03/04/14 at 04:57:42<br>    It does center though! thatll work. Now to format the cells and the entries to be legible.    </td>
+<td>Entered on 03/04/14 at 04:58:52<br>    bold top entry...    </td>
+<tr><td>Entered on 03/04/14 at 04:59:39<br>    Maybe now...    </td>
+<td>Entered on 03/04/14 at 05:00:11<br>    Yes    </td>
+<tr><td><strong>Entered on</strong> 03/04/14 at 05:00:52</strong><br>  stupid me..  </td>
+<td><strong>Entered on 03/04/14 at 05:01:16</strong><br>  Saving the document might help!  </td>
+<tr><td><strong>Entered on 03/04/14 at 05:02:10</strong><br>  This might work too  </td>
+<td style='background:white'><strong>Entered on 03/04/14 at 05:02:34</strong><br>  This?  </td>
+<tr><td><strong>Entered on 03/04/14 at 05:02:44</strong><br>  perfect!  </td>
+<td style='background:white;'><strong>Entered on 03/04/14 at 05:03:11</strong><br>  Now this work out nicely!  </td>
+<tr><td style='background:white;'><strong>Entered on 03/04/14 at 05:03:36</strong><br>  Simple text entries saved onto a document! Genius....  </td>
+<td style='background:white;'><strong>Entered on 03/04/14 at 05:04:33</strong><br>    </td>
+<tr><td style='background:white;'><strong>Entered on 03/04/14 at 05:05:05</strong><br>  Should be overflowing....  </td>
+<td style='background:white;'><strong>Entered on 03/04/14 at 05:05:32</strong><br>    </td>
+<tr><td style='background:white;'><strong>Entered on 03/04/14 at 05:06:30</strong><br>    </td>
+<td style='background:white;'><strong>Entered on 03/04/14 at 05:06:41</strong><br>    </td>
+<tr><td style='background:white;'><strong>Entered on 03/04/14 at 05:08:44</strong><br>  hey
+  </td>
+<tr><td style='background:white;'><strong>Entered on 03/04/14 at 05:10:33</strong><br>  No new entry and still echoed, im good at this now  </td>
+<td style='background:white;'><strong>Entered on 03/04/14 at 05:21:03</strong><br>  better  </td>
+<tr><td style='background:white;'><strong>Entered on 03/04/14 at 05:21:32</strong><br>  whered that come from  </td>
+<td style='background:white;'><strong>Entered on 03/04/14 at 05:22:19</strong><br>  overflow aint working....  </td>
+<tr><td style='background:white;'><strong>Entered on 03/04/14 at 05:25:22</strong><br>  Got my journal entries and overflowing midding!  </td>
+<td style='background:white;'><strong>Entered on 03/04/14 at 05:27:37</strong><br>     Now for bed... I have prevailed yet again! I love my life. Most importantly though, I love Stephanie. Couldn't live without her.  </td>
+<tr><td style='background:white;'><strong>Entered on 03/04/14 at 06:17:22</strong><br>  Really though, goodnight... for a 45 minute nap....  </td>
+<td style='background:white;'><strong>Entered on 03/04/14 at 06:19:51</strong><br>     Seemless...  </td>
+<tr><td style='background:white;'><strong>Entered on 03/05/14 at 01:11:34</strong><br>  GOT THE CHECKLIST BOX WORKING WITH A CLEAR LIST OPTION OHHH YA  </td>
+<td style='background:white;'><strong>Entered on 03/05/14 at 01:21:48</strong><br>     I am awesome  </td>
+<tr><td style='background:white;'><strong>Entered on 03/05/14 at 01:24:11</strong><br>  yt  </td>
+<td style='background:white;'><strong>Entered on 03/05/14 at 01:24:14</strong><br>     fsef  </td>
+<tr><td style='background:white;'><strong>Entered on 03/05/14 at 01:25:31</strong><br>  Theres a lot going on  </td>
+<td style='background:white;'><strong>Entered on 03/05/14 at 01:25:43</strong><br>     dasd  </td>
+<tr><td style='background:white;'><strong>Entered on 03/05/14 at 01:28:22</strong><br>  This should stay here  </td>
+<td style='background:white;'><strong>Entered on 03/05/14 at 01:35:40</strong><br>     This should stay here  </td>
+<tr><td class='entry'><strong>Entered on 03/05/14 at 11:46:34</strong><br>  dasd  </td>
+<td class='entry'><strong>Entered on 03/05/14 at 12:50:02</strong><br>     Like this  </td>
+<tr><td class='entry'><strong>Entered on 03/05/14 at 12:54:41</strong><br>  Like this  </td>
+<td class='entry'><strong>Entered on 03/05/14 at 15:50:20</strong><br>     Stayed up far to late again...  </td>
+<tr><td class='entry'><strong>Entered on 03/05/14 at 15:50:32</strong><br>  Stayed up far to late again...  </td>

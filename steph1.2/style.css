@@ -1,0 +1,866 @@
+/*
+Theme Name: Basic
+Theme URI: http://wordpress.org/themes/2nd Site
+Author: Jestrr
+Author URI: http://wordpress.org/
+Description: Basic Theme
+Version: 1.0
+
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: twentythirteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+* {
+	margin:0px;
+	padding:0px;
+}
+
+@font-face {
+	font-family: Proxima Nova Thin;
+	src: url("Fonts/Proxima Nova Thin.otf") format("opentype");
+}
+
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url("Fonts/myriadpro-regular.otf") format("opentype");
+}
+
+@font-face {
+	font-family: 'Univers';
+	src: url("Fonts/univers.ttf") format("opentype");
+}
+
+
+html {
+	background-color:white;
+	height:100%;
+	width:100%;
+	position:relative;
+}
+
+#wrapper {
+	min-width:1230px;
+	height: 100%;
+	position:relative;
+	overflow:hidden;
+}
+
+#page {
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:15px;
+	width:1180px;
+	background-color:white;
+	position:relative;
+	overflow:hidden;
+}
+
+/* /////////////////////HEADER/////////////// */
+/* /////////////////////HEADER/////////////// */
+/* /////////////////////HEADER/////////////// */
+/* /////////////////////HEADER/////////////// */
+/* /////////////////////HEADER/////////////// */
+
+
+#header {
+	/* background-image: url("Background/Forest.jpg"); 
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	background-position: 50% 50%; 
+	background-color: #9766C9;*/
+	background-color:white;
+	position:relative;
+	text-align: center;
+	width:100%;
+	height:130px;
+}
+
+
+
+#h_text {
+	font-family: 'IM Fell English', serif;
+	font-style: italic;
+	text-align:left;
+	width:50%;
+	position:absolute;
+	color:black;
+	bottom:32px;
+	left:10px;
+	font-size:80px;
+
+}
+
+#h_menu {
+	background-color:none;
+	/* background-color: #404031; */
+	width:1180px;
+	height:25px;
+	z-index:100;
+}
+
+.navtop {
+	position:fixed;
+	top:0px;
+	z-index: 10000;
+}
+
+.navstart {
+	position:absolute;
+	bottom:0px;
+	float:left;
+}
+
+.h_buttons {
+	float:left;
+	color:white;
+	text-decoration: none;
+	font-family: serif;
+	font-size:18px;
+	width:80px;
+	cursor:pointer;
+	margin-left:7px;
+	margin-top:2px;
+	border:2px solid #B694D9;
+	background-color: #404031;
+	z-index:101;
+}
+
+
+.h_buttons:hover {
+	background-color:#766587;
+}
+
+a[target=login]:hover ~ #login_container, #login_container:hover  {
+	display:block;
+
+}
+
+ !#login_container > #username:focus {
+	background-color:green;
+
+}
+
+#login_container {
+	border:1px solid black;
+	position:absolute;
+	left:544px;
+	top:2px;
+	display:none;
+	background-color:white;
+	z-index: 10000;
+
+}
+
+
+
+
+/* /////////////////MMULTIPLE PAGES /////////////// */
+/* /////////////////MMULTIPLE PAGES /////////////// */
+/* /////////////////MMULTIPLE PAGES /////////////// */
+/* /////////////////MMULTIPLE PAGES /////////////// */
+
+
+.c_title {
+	display:none;
+	text-align: center;
+	background-color:white;
+	color:black;
+	overflow:hidden;
+	width:100%;
+}
+
+.page_title {
+	/*
+	font-family: Proxima nova thin; 
+	 */
+	 font-family: Univers; 
+	 z-index:0;
+	 display:none;
+}
+
+
+#img_link_box {
+	width:270px;
+	border:2px solid purple;
+	margin-top:10px;
+	margin-left:18px;
+	margin-bottom:10px;
+	text-align:left;
+}
+
+.admin_attach {
+	position:relative;
+	color:blue;
+	text-decoration:underline;
+	margin-left:9px;
+	display: inline-block;
+	margin-bottom:5px;
+}
+
+.admin_attach:hover {
+	color:red;
+	cursor: pointer;
+}
+
+/* /////////////////////HOME/////////////// */
+/* /////////////////////HOME/////////////// */
+/* /////////////////////HOME/////////////// */
+/* /////////////////////HOME/////////////// */
+/* /////////////////////HOME/////////////// */
+
+#home {
+	display:block;
+}
+
+.big_img {
+	margin-top:20px;
+	left:50%;
+	width:72.6%;
+	height:580px;
+	display:none;
+	z-index:40;
+}
+#big_img1 {
+	left:50%;
+	width:72.6%;
+	height:580px;
+}
+
+#big_img_no_js {
+	left:50%;
+	width:72.6%;
+	height:580px;
+}
+
+.mini_post {
+	width:49.1%;
+	height:260px;
+	padding-bottom:17px;
+	padding-top:17px;
+	display: inline-block;
+	text-align: left;
+	float:left;
+	margin:5px;
+	background-color:#E6E6E6;
+	overflow:hidden;
+}
+
+.mini_news_title {
+	font-size:50px;
+}
+
+.mini_image{
+	height:100px;
+	width:125px;
+	margin-top: 7px;
+	margin-left:30px;
+	margin-right:30px;
+	float:left;
+}
+
+.mini_title {
+	text-align:left;
+	margin-left:20px;
+	margin-right:30px;
+}
+
+.mini_date {
+	text-align:left;
+	margin-left:20px;
+}
+
+.mini_text {
+	margin-left:20px;
+	margin-right:30px;
+	margin-top:10px;
+	text-align:justify;
+	font-size:15px;
+	overflow:hidden;
+	max-height:150px;
+}
+
+.mini_text span {
+	display:block;
+	height:20px;
+}
+
+.to_top {
+	float:left;
+	font-size:25px;
+	margin-left:30px;
+	text-decoration: none;
+}
+
+.mini_tags_container {
+	float:left;
+	display:inline-block;
+	margin-top:10px;
+	font-size:16px;
+	margin-left:105px;
+	text-decoration: none;
+}
+
+.mini_tags_container h3 {
+	float:left;
+	margin-right:10px;
+}
+
+.mini_tags {
+	float:left;
+	font-size:18px;
+	margin-left:10px;
+	text-decoration: none;
+}
+
+.read_more {
+	width:75%;
+	text-align:center;
+	float:left;
+}
+
+.read_more a {
+	font-size:25px;
+	text-decoration:none;
+	color:red;
+}
+
+.read_more a:hover, .mini_tags:hover, .to_top:hover {
+	color:green;
+}
+
+
+/* /////////////////////NEWS/////////////// */
+/* /////////////////////NEWS/////////////// */
+/* /////////////////////NEWS/////////////// */
+/* /////////////////////NEWS/////////////// */
+/* /////////////////////NEWS/////////////// */
+
+
+.blog_post {
+	width:100%;
+	padding-bottom:17px;
+	padding-top:34px;
+	margin-bottom:10px;
+	margin-top:10px;
+	display: inline-block;
+	text-align: left;
+		background-color:#E6E6E6;
+}
+
+.blog_image{
+	height:200px;
+	width:250px;
+	margin-top: 7px;
+	margin-left:30px;
+	margin-right:30px;
+	float:left;
+}
+
+.blog_title {
+	text-align:left;
+	margin-left:20px;
+}
+
+.blog_date {
+	text-align:left;
+	margin-left:20px;
+}
+
+.blog_text {
+	text-indent:50px;
+	margin-left:30px;
+	margin-right:30px;
+	margin-top:10px;
+	text-align:justify;
+	font-size:20px;
+}
+
+.blog_text span {
+	display:block;
+	height:20px;
+}
+
+.to_top {
+	float:left;
+	clear:left;
+	font-size:25px;
+	margin-left:30px;
+	text-decoration: none;
+}
+
+.tags_container {
+	float:left;
+	display:inline-block;
+	margin-top:10px;
+	font-size:16px;
+	margin-left:240px;
+	text-decoration: none;
+}
+
+.tags_container h3 {
+	float:left;
+	margin-right:10px;
+}
+
+.blog_tags {
+	float:left;
+	font-size:18px;
+	margin-left:10px;
+	text-decoration: none;
+}
+
+
+/* /////////////////////ABOUT/////////////// */
+/* /////////////////////ABOUT/////////////// */
+/* /////////////////////ABOUT/////////////// */
+/* /////////////////////ABOUT/////////////// */
+/* /////////////////////ABOUT/////////////// */
+
+#a_statement {
+	margin-top:15px;
+
+}
+#a_statement ~ p {
+	background-color:#E6E6E6;
+	margin:30px;
+}
+
+.name_content {
+	width:47%;
+	float:left;
+	margin-bottom:35px;
+	margin-left:7px;
+	margin-right:15px;
+	background-color:#E6E6E6;
+}
+
+.about_img {
+	height:108px;
+	width:120px;
+	margin-left:20px;
+	margin-right:20px;
+	border-radius: 100%;
+	float:left;
+}
+
+.about_img[alt]{
+	color:blue;
+}
+
+.name_h {
+	font-size:40px;
+	margin-left:15px;
+	margin-top:10px;
+	text-align:left;
+}
+
+.name_t {
+	text-align: justify;
+	margin:20px;
+	font-size:20px;
+}
+
+
+#about_container > p {
+	font-size:19px;
+	width:900px;
+	text-align: justify;
+	margin:auto;
+}
+
+#about span {
+	display:block;
+	height:20px;
+}
+
+
+
+/* /////////////////////PORTFOLIO/////////////// */
+/* /////////////////////PORTFOLIO/////////////// */
+/* /////////////////////PORTFOLIO/////////////// */
+/* /////////////////////PORTFOLIO/////////////// */
+/* /////////////////////PORTFOLIO/////////////// */
+
+
+.port_post {
+	width:100%;
+	padding-bottom:3px;
+	padding-top:17px;
+	display: inline-block;
+	text-align: left;
+
+}
+
+.port_image{
+	height:350px;
+	width:400px;
+	margin-top: 7px;
+	margin-left:30px;
+	margin-right:30px;
+	float:left;
+}
+
+.port_title {
+	text-align:left;
+	margin-left:20px;
+}
+
+.port_text {
+	margin-left:30px;
+	margin-right:30px;
+	margin-top:10px;
+	text-align:justify;
+	font-size:20px;
+}
+
+.to_top {
+	float:left;
+	font-size:25px;
+	margin-left:30px;
+	text-decoration: none;
+}
+
+.to_gallery {
+	font-size:35px;
+	float:left;
+	clear:left;
+	margin-top:14px;
+	margin-left:90px;
+	margin-right:115px;
+}
+
+/* /////////////////////GALLERY/////////////// */
+/* /////////////////////GALLERY/////////////// */
+/* /////////////////////GALLERY/////////////// */
+/* /////////////////////GALLERY/////////////// */
+/* /////////////////////GALLERY/////////////// */
+
+
+.gal_container {
+	width:100%;
+	padding-bottom:15px;
+	padding-top:35px;
+	margin-top:20px;
+	display: inline-block;
+	text-align: left;
+
+}
+
+.gallery_image{
+	border:1px solid black;
+	height:450px;
+	width:585px;
+	margin-top: 7px;
+	margin-left:7px;
+	margin-right:30px;
+	float:left;
+}
+
+
+.thumbnail_container {
+	width:550px;
+	border:1px solid black;
+	float:left;
+}
+
+.gallery_thumbnails {
+	height:80px;
+	width:110px;
+	margin-top: 12px;
+	margin-left:12px;
+	margin-right:12px;
+	float:left;
+	text-align:right;
+}
+
+
+
+/* /////////////////////ADMIN/////////////// */
+/* /////////////////////ADMIN/////////////// */
+/* /////////////////////ADMIN/////////////// */
+/* /////////////////////ADMIN/////////////// */
+/* /////////////////////ADMIN/////////////// */
+
+/*//////// ADMIN POST PAGE /////// */
+/*//////// ADMIN POST PAGE /////// */
+/*//////// ADMIN POST PAGE /////// */
+/*//////// ADMIN POST PAGE /////// */
+
+
+#admin {
+	display:none;
+}
+
+fieldset, form {
+	overflow:hidden;
+}
+
+#admin_img {
+	height:300px;
+	width:300px;
+	border:1px solid black;
+	text-align:center;
+	float:left;
+	margin-left:15px;
+	margin-right:10px;
+}
+
+#outer_container {
+	float:left;
+	border:1px solid black;
+}
+
+#upload_container {
+	width:310px;
+}
+
+
+#clear_img {
+	position:relative;
+	width:90px;
+	margin-left:21px;
+}
+
+#attach_val {
+	position:relative;
+}
+
+input[name=post_title], b[val=title], b[val=body], input[id=ins_para] {
+	margin-right:130px;
+	width:300px;
+	float:right;
+	clear:right;
+}
+
+#post_text {
+	float:right;
+	clear:right;
+	margin-right:30px;
+}
+
+#clear_post {
+	margin-right:257px;
+	clear:right;
+	float:right;
+	width:58px;
+}
+
+#admin_submit input[type=submit] {
+	float:right;
+	clear:right;
+	margin-top:35px;
+	margin-right:253px;
+}
+
+/*//////// ADMIN UPLOADPAGE /////// */
+/*//////// ADMIN UPLOADPAGE /////// */
+/*//////// ADMIN UPLOADPAGE /////// */
+/*//////// ADMIN UPLOADPAGE /////// */
+
+#edit {
+	display:inline-block;
+	width:100%;
+}
+
+#home_submit {
+	width:50%;
+	border:2px solid #B694D9;
+	display:inline-block;
+	float:left;
+}
+
+#edit_1st_container {
+	width:300px;
+	border:2px solid #B694D9;
+	float:left;
+}
+
+.homeimg {
+	width:200px;
+	margin-top:10px;
+}
+
+#show_home_img {
+	float:left;
+	height:270px;
+	width:270px;
+	border: 1px solid black;
+}
+
+#ajax_home_img {
+	float:left;
+	width:150px;
+}
+
+#edit b {
+	position:relative;
+}
+
+#edit_2nd_container{
+	height:600px;
+	width:350px;
+	border:2px solid #B694D9;
+	display:inline-block;
+	vertical-align: top;
+}
+
+#show_up_img {
+	float:left;
+	height:250px;
+	width:350px;
+}
+
+#non-port,
+#port_folder {
+	display:none;
+}
+
+
+/*//////// ADMIN ABOUTPAGE /////// */
+/*//////// ADMIN ABOUTPAGE /////// */
+/*//////// ADMIN ABOUTPAGE /////// */
+/*//////// ADMIN ABOUTPAGE /////// */
+
+
+#aboutpage form {
+	float:left;
+}
+
+#mission_form label {
+	float:left;
+	clear:left;
+	margin-left:110px;
+}
+
+#ajax_aboutpage {
+	float:right;
+	clear:right;
+	margin-top:20px;
+	margin-right:20px;
+	text-align:justify;
+	width:55%;
+}
+
+#ajax_aboutpage span {
+	height:20px;
+	display:block;
+	width:100px;
+}
+
+.admin_about_img {
+	height:108px;
+	width:120px;
+	margin-left:20px;
+	margin-right:20px;
+	border-radius: 100%;
+}
+
+#admin_about_img {
+	height:260px;
+	width:280px;
+}
+
+#ajax_img_about {
+	margin-top:7px;
+}
+
+/*//////// ADMIN PORTFOLIO PAGE /////// */
+/*//////// ADMIN PORTFOLIO PAGE /////// */
+/*//////// ADMIN PORTFOLIO PAGE /////// */
+/*//////// ADMIN PORTFOLIO PAGE /////// */
+
+
+
+
+#admin_img_port {
+	height:300px;
+	width:300px;
+	border:1px solid black;
+	text-align:center;
+	float:left;
+	margin-left:15px;
+	margin-right:10px;
+}
+
+#outer_container_port {
+	float:left;
+	border:1px solid black;
+}
+
+#upload_container_port {
+	width:310px;
+}
+
+
+
+
+#clear_img_port {
+	position:relative;
+	width:90px;
+	margin-left:21px;
+}
+
+#attach_val_port {
+	position:relative;
+}
+
+input[name=port_title], b[val=title], b[val=body], input[id=ins_para_port] {
+	margin-right:130px;
+	width:300px;
+	float:right;
+	clear:right;
+}
+
+#port_text {
+	float:right;
+	clear:right;
+	margin-right:30px;
+}
+
+#clear_post_port {
+	margin-right:257px;
+	clear:right;
+	float:right;
+	width:58px;
+}
+
+#admin_submit_port input[type=submit] {
+	float:right;
+	clear:right;
+	margin-top:35px;
+	margin-right:253px;
+}
+
+#hide {
+	display:none;
+}
+
+/* /////////////////////MEDIA/////////////// */
+/* /////////////////////MEDIA/////////////// */
+/* /////////////////////MEDIA/////////////// */
+/* /////////////////////MEDIA/////////////// */
+/* /////////////////////MEDIA/////////////// */
+
+
+.imgFile {
+	height:330px;
+	width:364px;
+}
+
+/* /////////////////////INVENTORY/////////////// */
+/* /////////////////////INVENTORY/////////////// */
+/* /////////////////////INVENTORY/////////////// */
+/* /////////////////////INVENTORY/////////////// */
+/* /////////////////////INVENTORY/////////////// */
+
+}
+
+ #inv_field{
+ 	width:230px; 
+ 	text-align:right;
+ 	margin:auto;
+ 	margin-top:30px;
+ }

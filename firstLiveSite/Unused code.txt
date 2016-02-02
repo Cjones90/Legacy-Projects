@@ -1,0 +1,167 @@
+
+
+<!-- ////////////////////////////////////////////////
+///////////// Code work in progress below /////////////
+
+       ////// Create connection 
+
+$con = mysqli_connect("127.0.0.1", "", "", "my_db");
+
+if (mysqli_connect_errno())
+  {
+  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+  }
+  else
+  { 
+  	echo "Connection to MySQL database successful! <br>";
+	}
+  
+ ////////   Creating a table
+
+ $sql="CREATE Table mypersons (
+ 		PID INT NOT NULL AUTO_INCREMENT,
+ 		PRIMARY KEY(PID),
+ 		FirstName CHAR(30),
+ 		LastName CHAR (30),
+ 		Age INT)";
+
+//////// Checking if table is is created or not
+
+ if(mysqli_query($con,$sql))
+ 	  {
+	  echo "Table mypersons created successfully";
+	  }
+	  else
+	  {
+	  echo "Error creating table: " . mysqli_error($con);
+	  }
+		
+////////  Inserting Recrods into Table
+
+mysqli_query($con, "INSERT INTO mypersons(FirstName, LastName, Age)
+	VALUES('Casey', 'Jones', 23)");
+
+mysqli_query($con, "INSERT INTO mypersons(FirstName, LastName, Age)
+	VALUES('Stephanie', 'LaRue', 24)");
+
+
+////////////////  Getting result and displaying it
+
+$result = mysqli_query($con, "SELECT * FROM mypersons");  
+
+//////////////// mysqli_fetch_array turns array into string
+
+while ($row= mysqli_fetch_array($result))
+	{
+	echo $row['FirstName'] . " " . $row['LastName'];
+	echo "<br>";
+	}
+
+
+
+$drop = "DROP TABLE Persons";
+$select = "select persons";
+  
+if(mysqli_query($con,$select))
+  {
+  echo "Table persons created successfully";
+  }
+  else{
+  echo "Error creating table: " . mysqli_error($con);
+  }
+ 
+*/
+
+ -->
+
+
+<!-- 
+/* //////////////////////////////////////////////////////////
+///////////////// Unused / Broken / or Code for later stored here /////////
+//////////////////////////////////////////////////////////
+
+$(document).ready(function() {
+	$("body").keyup(function (r) {
+	var code = r.which;
+	if(code==13)r.preventDefault();
+	if(code==13||code==186){
+		var $t = val
+		var $r = val
+		if($r == "resetb") {
+		$(".lbutton").remove();
+			$("#img1").empty();
+			$("#lefttext").val('');
+			return;
+				}
+		var bbb = $("<button class='lbutton'>" + val + "</button>");
+		$(bbb).on('click', bbb, function (){
+			if($t == "heart") {
+				var heartimage = new Image;
+				heartimage.src = imageheart;
+				$("#img1").append(heartimage);
+					} else if ($t == "reset") {
+				$("#img1").empty(); 
+					} else {
+				var shieldimage = new Image;
+				shieldimage.src = imageshield;
+				$("#img1").append(shieldimage);
+					}
+							});
+		$(bbb).insertBefore('#leftbox'); 
+		$("#lefttext").val('');
+	};
+	});
+	
+});
+
+*/
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+function newinput(val){
+	 localStorage.setItem("lastname", val);
+	 document.getElementById("userbox").innerHTML = localStorage.getItem("lastname");
+	 	  };
+////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////// 
+*/
+
+-->
+
+<!--
+<script>
+ $("#contactForm").submit(function(event) 
+     {
+         /* stop form from submitting normally */
+         event.preventDefault();
+
+         /* get some values from elements on the page: */
+         var $form = $( this ),
+             $submit = $form.find( 'button[type="submit"]' ),
+             name_value = $form.find( 'input[name="name"]' ).val(),
+             email_value = $form.find( 'input[name="email"]' ).val(),
+             message_value = $form.find( 'textarea[name="message"]' ).val(),
+             url = $form.attr('action');
+
+         /* Send the data using post */
+         var posting = $.post( url, { 
+                           name: name_value, 
+                           email: email_value, 
+                           message: message_value 
+                       });
+
+         posting.done(function( data )
+         {
+             /* Put the results in a div */
+             $( "#contactResponse" ).html(data);
+
+         });
+    });
+</script>
+
+-->
+
+	<!--<INPUT type = "text" id="lefttext" onkeyup ="val = this.value" cols="10" style = "margin-top: 15px">
+	<span id = "leftbox"></span>  -->

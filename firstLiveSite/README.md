@@ -1,0 +1,7 @@
+This is the first website I made that was put up live on the internet. Only seems like yesterday. I had a lot of fun learning
+about PHP and MySQL. I honestly forgot I did a lot more PHP/MySQL then JS back when I was starting.
+
+I can read 90% of the code, however its undocumented and is an absolute mess. Code is flung in every which way with no
+forethought of what was to come of it. It's really funny to be honest. It's late so this is a little short.
+
+I believe this site is live at (darkwater.cu.cc) and at least functions. It connects to a database so its pretty useless to anyone else really.

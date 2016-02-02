@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dinner</title>
+	<script src='jquery-2.1.1.js'></script>
+	<style>
+
+	li {
+		cursor: pointer;
+		list-style: none;
+	}
+
+	</style>
+</head>
+<body>
+
+	<ul>
+		<h3>Choices</h3>
+		<li class='pane button'>Firehouse</li>
+		<li class='pane button'>Chipotle</li>
+		<li class='pane button'>Chili's</li>
+		<li class='pane button'>Green Acres</li>
+		<li class='pane button'>Subway</li>
+		<li class='pane button'>Taco Bell</li>
+		<li class='pane button'>Wendy's</li>
+		<li class='pane button'>The Hat</li>
+		<li class='pane button'>Pizza</li>
+	</ul>
+	<ul><h3>Crossed off</h3>
+	</ul>
+	<input type='text'>
+	<button id='add'>Add</button>
+	<button id='reset'>Reset</button>
+
+<script>
+
+$(function () {
+				$(document).on('click', 'li', function (){
+					$(this).css('opacity', .5);
+					$(this).appendTo('ul:nth-of-type(2)');
+				})
+
+				$('#reset').click(function () {
+					$('li').css('opacity', 1);
+					$('li').each(function () {
+						$(this).appendTo('ul:nth-of-type(1)');
+					})
+				})
+
+				$('#add').click(function () {
+					var text = "<li class='pane button'>"+$('input').val()+"</li>";
+					$('ul:nth-of-type(1)').append(text);
+					$('input').val('');
+				})
+			})
+
+</script>
+</body>
+</html>
